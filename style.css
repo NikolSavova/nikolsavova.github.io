@@ -51,6 +51,23 @@ header {
   margin-bottom: 3rem;
 }
 
+.portrait {
+  float: right;
+  width: 8.5rem;
+  height: 8.5rem;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 640px) {
+  .portrait {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+
 h1 {
   font-size: 2.1rem;
   font-weight: normal;
