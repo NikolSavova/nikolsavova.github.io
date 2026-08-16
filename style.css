@@ -159,10 +159,6 @@ a:hover {
   text-decoration-style: wavy;
 }
 
-abbr {
-  text-decoration: none;
-}
-
 .post-link {
   font-size: 0.9rem;
   white-space: nowrap;
